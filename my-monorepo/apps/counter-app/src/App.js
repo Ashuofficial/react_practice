@@ -1,7 +1,7 @@
 import './App.css';
 import CounterDisplay from './components/CounterDisplay';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       {/* app */}
