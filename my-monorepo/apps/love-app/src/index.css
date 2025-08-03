@@ -1,1 +1,116 @@
 /* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.refresh {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.btn-white {
+    margin-top: 1rem;
+    padding: 10px 80px ;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn-white:hover {
+    background-color: #12b0e8;
+    color: wheat;
+    transition: all 1s;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+border: 7px dashed blue;
+border-radius: 20px;
+    padding: 1vh 5vw ;
+}
+
+.cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image {
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info {
+    margin: 20px 5px;
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+}
+
+.tour-name {
+    font-size: 1.5rem;
+    
+}
+
+.read-more {
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 1px solid #9b2121;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 80px;
+    cursor: pointer;
+    background-color: #c08989;
+}
+
+.btn-red:hover {
+    background-color: #de1313;
+    color: #f4f7f8;
+    transition: all 1.2s;
+}
