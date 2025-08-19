@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import Spinner from './Spinner';
+import BlogDetails from './BlogDetails';
 // import Card from './Card';
 
 function Blogs() {
@@ -22,17 +23,7 @@ function Blogs() {
           </div> ) : 
           ( posts.map((post)=>(
           // <Card key={post.id} post={post} />
-          <div className='blog' key={post.id}>
-            <p className='title'>{post.title}</p>
-            <p>By <span>{post.author}</span> on <span>{post.category}</span> </p>
-            <p>Posted on {post.date}</p>
-            <p>{post.content}</p>
-            <div>
-              {post.tags.map((tag, index)=>{
-                return <span key={index}>{`#${tag} `}</span>
-              }) }
-            </div>
-          </div>
+          <BlogDetails key={post.id} post={post} />
         ) ) ) 
         )
       }

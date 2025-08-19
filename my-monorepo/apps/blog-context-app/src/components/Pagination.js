@@ -4,7 +4,7 @@ import { AppContext } from "../context/AppContext";
 function Pagination() {
           console.log('inside pagination');
 
-  const {page,setPage,handlePageChange, totalPages}=useContext(AppContext);
+  const {page, handlePageChange, totalPages}=useContext(AppContext);
   return (
     <div className="pagination">
      <div className="buttons">
