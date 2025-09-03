@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
-
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +17,8 @@
   "dependencies": {
     "lucide-react": "^0.532.0"
   },
-  
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
+    "postcss": "^8.5.6"
   }
 }

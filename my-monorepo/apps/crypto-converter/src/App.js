@@ -1,0 +1,15 @@
+import './App.css';
+import Crypto from './components/Crypto';
+
+function App() {
+  return (
+    <div className="App">
+       {/* <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Click Me
+    </button> */}
+    <Crypto />
+    </div>
+  );
+}
+
+export default App;
